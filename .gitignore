@@ -1,0 +1,5 @@
+*.o
+market
+product
+market_debug
+
