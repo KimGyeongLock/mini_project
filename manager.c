@@ -2,7 +2,8 @@
 
 void listSnack(Snack *s[],int count){
     printf("================================\n");
-    for(int i = 0;i<count;i++){
+    int i;
+    for( i = 0;i<count;i++){
        
         if(s[i] == NULL) continue;
         printf("[%d] ",i+1);
