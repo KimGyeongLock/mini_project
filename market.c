@@ -1,4 +1,5 @@
 #include "manager.h"
+
 int selectMenu(){
  int menu;
  printf("\n1. 조회\n");
