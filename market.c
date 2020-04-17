@@ -17,7 +17,7 @@ int selectMenu(){
 
 int main(void){
     Snack *sp[100];
-    int curcount=0, count = 0, menu=0;
+    int curcount=0, count = 0, menu;
 
     count = loadFile(sp);
     curcount = count;
