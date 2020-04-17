@@ -15,7 +15,7 @@ int createSnack(Snack *s){
         return 1;
         }
 void readSnack(Snack s){
-        s.g_price = s.price * 10 / s.gram;
+        s.g_price = s.price * 10/ s.gram;
         printf("%s %dg\n    %d 원\n    (10g 당 %d 원)\n    ★★★★★(%d 개)\n",s.name,s.gram,s.price,s.g_price,s.star);
 }
 int updateSnack(Snack *s){
